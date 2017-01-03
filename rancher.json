@@ -171,7 +171,7 @@
                 "      image: rancher/server\n",
                 "      ports:\n",
                 "      - 8080:8080\n",
-                "      restart: unless-stopped\n",
+                "      restart: always\n",
                 "      environment:\n",
                 {
                   "Fn::Join": [
